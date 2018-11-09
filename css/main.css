@@ -1,0 +1,39 @@
+body {
+  background: gray;
+  font-family: Arial;
+  margin-top: 2%;
+}
+.aboutme {
+  position:absolute;
+  width: 100%;
+  background-color: white;
+  padding: 1%;
+  margin-bottom: 2%;
+  position: relative;
+}
+.aboutme h1 {
+  text-align: center;
+}
+.aboutme p {
+  font-size: 14px;
+  text-align: center;
+}
+.maincontainer {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+.maincontainer img {
+  width:100%;
+  padding-bottom: 3%;
+}
+.leftcontainer {
+  width: 49%;
+  margin: auto;
+  float: left;
+}
+.rightcontainer {
+  width: 49%;
+    margin: auto;
+  float: right;
+}
