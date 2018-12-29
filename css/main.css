@@ -1,39 +1,98 @@
-body {
-  background: gray;
-  font-family: Arial;
-  margin-top: 2%;
+nav {
+  font-family: 'Walter Turncoat',cursive;
+  max-height: 50px;
+  max-width: 900px;
+  word-spacing: 100px;
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
 }
-.aboutme {
-  position:absolute;
-  width: 100%;
-  background-color: white;
-  padding: 1%;
-  margin-bottom: 2%;
+nav a {
+  color: #6b6969;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+nav a:hover {
+  color: #ff5c16;
+  -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+ transition:.5s;
+}
+body {
+  font-family: arial;
+  background: white;
+  margin: 0;
+  color: #1E1E1E;
+  background-color: #F5F5F5;
+}
+a {
+  color: #6b6969;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff5c16;
+  -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+ transition:.5s;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Walter Turncoat', cursive;
+}
+.maincontainer {
+  max-width: 900px;
+  margin: auto;
+    min-height: 100%;
   position: relative;
 }
+.maincontainer h1{
+	border-radius: 25px 25px 0px 0px;
+  background: #1f5c65;
+	color: white;
+	text-align: center;
+}
+.aboutme {
+  margin: auto;
+  max-width: 900px;
+  max-height: 300px;
+}
 .aboutme h1 {
+  padding-bottom:;
+  border-radius: 25px 25px 0px 0px;
+  background: #1f5c65;
+  color: white;
   text-align: center;
 }
 .aboutme p {
-  font-size: 14px;
-  text-align: center;
+  font-style: normal;
+  font-size: 15px;
+  text-align: left;
 }
-.maincontainer {
-  width: 75%;
-  text-align: center;
-  margin: auto;
+.aboutme img {
+  max-width: 100%;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ff5c16;
 }
-.maincontainer img {
-  width:100%;
-  padding-bottom: 3%;
-}
-.leftcontainer {
-  width: 49%;
-  margin: auto;
+.floatleft {
   float: left;
+  max-width: 40%;
 }
-.rightcontainer {
-  width: 49%;
-    margin: auto;
+.floatright {
   float: right;
+  max-width: 70%
+}
+.about {
+  max-width: 90%;
+  margin: auto;
+  background-color: #EEEEEE;
+}
+html, body {
+  height: 100%;
 }
